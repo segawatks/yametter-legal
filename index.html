@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>利用規約 | ヤメッター</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f5f2;
+    --text: #1a1a1a;
+    --muted: #888;
+    --accent: #2d5a3d;
+    --border: #ddd;
+    --max: 680px;
+  }
+
+  html { font-size: 16px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 60px 24px 120px;
+  }
+
+  header {
+    max-width: var(--max);
+    margin: 0 auto 60px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 32px;
+  }
+
+  .app-name {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  main {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+
+  section {
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  ol {
+    padding-left: 0;
+    list-style: none;
+    counter-reset: item;
+  }
+
+  ol li {
+    font-size: 14px;
+    color: #333;
+    padding: 6px 0 6px 32px;
+    position: relative;
+    counter-increment: item;
+    border-bottom: 1px solid #eee;
+  }
+
+  ol li:last-child { border-bottom: none; }
+
+  ol li::before {
+    content: '(' counter(item) ')';
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 500;
+    top: 7px;
+  }
+
+  .contact-block {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
+  }
+
+  .contact-block p {
+    margin-bottom: 4px;
+  }
+
+  .contact-block a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+  }
+
+  footer {
+    max-width: var(--max);
+    margin: 60px auto 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="app-name">Yametter</div>
+  <h1>利用規約</h1>
+  <div class="meta">制定日：2025年2月22日</div>
+</header>
+
+<main>
+
+  <section>
+    <h2>第1条（総則）</h2>
+    <p>本利用規約（以下「本規約」といいます）は、segawa takeshi（以下「提供者」といいます）が提供するiOSアプリケーション「ヤメッター」（以下「本アプリ」といいます）の利用条件を定めるものです。ユーザーは本規約に同意のうえ、本アプリをご利用ください。</p>
+  </section>
+
+  <section>
+    <h2>第2条（定義）</h2>
+    <ol>
+      <li>「本アプリ」とは、提供者が提供するiOSアプリケーション「ヤメッター」をいいます。</li>
+      <li>「ユーザー」とは、本アプリをインストールし利用する者をいいます。</li>
+      <li>「コンテンツ」とは、ユーザーが本アプリ上に投稿・記録するテキスト、画像、集中タイムの記録データ（時間グラフ・タグ等）をいいます。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>第3条（利用登録）</h2>
+    <p>本アプリはApple IDを用いた「Appleでサインイン（Sign in with Apple）」によるアカウント登録のみに対応しています。ユーザーは、Apple社の定める利用規約に同意のうえ、アカウントを作成するものとします。</p>
+  </section>
+
+  <section>
+    <h2>第4条（利用資格）</h2>
+    <p>本アプリは13歳以上の方を対象としています。13歳未満の方は本アプリを利用することができません。13歳以上18歳未満の未成年者が本アプリを利用する場合は、保護者の同意を得たうえで利用するものとします。</p>
+  </section>
+
+  <section>
+    <h2>第5条（提供機能）</h2>
+    <p>本アプリは以下の機能を提供します。</p>
+    <ol>
+      <li>集中タイマー機能：ユーザーが設定した時間、特定のタスクに集中するためのタイマー機能</li>
+      <li>記録・投稿機能：集中タイムの記録（時間グラフ・取り組み内容のタグ）、テキスト、画像の投稿</li>
+      <li>その他、提供者が適宜追加する機能</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>第6条（広告）</h2>
+    <p>本アプリは現在無料で提供されており、広告が表示されることがあります。広告の内容については提供者が管理するものではなく、広告主の責任において提供されます。</p>
+  </section>
+
+  <section>
+    <h2>第7条（禁止事項）</h2>
+    <p>ユーザーは本アプリの利用において、以下の行為を行ってはなりません。</p>
+    <ol>
+      <li>法令または公序良俗に違反する行為</li>
+      <li>犯罪行為または犯罪行為を助長する行為</li>
+      <li>他のユーザーまたは第三者への誹謗中傷、ハラスメント行為</li>
+      <li>他のユーザーまたは第三者の知的財産権、プライバシー権、肖像権その他の権利を侵害する行為</li>
+      <li>虚偽の情報を投稿する行為</li>
+      <li>スパム投稿、広告・勧誘目的の投稿</li>
+      <li>わいせつ・暴力的・差別的な表現を含むコンテンツの投稿</li>
+      <li>未成年者に有害なコンテンツの投稿</li>
+      <li>マルウェア等の有害なプログラムを含むコンテンツの送信</li>
+      <li>本アプリのサーバーまたはネットワークへの不正アクセス・過負荷をかける行為</li>
+      <li>本アプリのリバースエンジニアリング、逆コンパイル、改ざん等</li>
+      <li>その他、提供者が不適切と判断する行為</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>第8条（アカウントの停止・削除）</h2>
+    <p>提供者は、ユーザーが本規約に違反した場合、事前の警告なく当該ユーザーのアカウントを停止または削除することができます。アカウントの停止・削除に伴い生じた損害について、提供者は一切の責任を負いません。</p>
+  </section>
+
+  <section>
+    <h2>第9条（コンテンツの取り扱い）</h2>
+    <p>ユーザーが投稿したコンテンツの著作権はユーザーに帰属します。ただし、ユーザーは提供者に対し、本アプリのサービス提供・改善・プロモーションを目的とした範囲で、コンテンツを無償かつ非独占的に使用・複製・表示する権利を許諾するものとします。</p>
+    <p>提供者は、本規約に違反するコンテンツを予告なく削除できるものとします。</p>
+  </section>
+
+  <section>
+    <h2>第10条（プライバシー）</h2>
+    <p>提供者は、ユーザーの個人情報をプライバシーポリシーに基づき適切に取り扱います。本アプリの利用にあたっては、プライバシーポリシーにも同意したものとみなします。</p>
+  </section>
+
+  <section>
+    <h2>第11条（免責事項）</h2>
+    <p>提供者は以下について一切の責任を負いません。</p>
+    <ol>
+      <li>本アプリの利用により生じたユーザーまたは第三者の損害</li>
+      <li>本アプリの停止・中断・終了・不具合</li>
+      <li>ユーザーが投稿したコンテンツの内容</li>
+      <li>本アプリを通じた広告の内容</li>
+      <li>通信環境等に起因するデータの損失</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>第12条（サービスの変更・終了）</h2>
+    <p>提供者は、ユーザーへの事前通知なく、本アプリの内容の変更または提供の終了を行うことができます。これによりユーザーに生じた損害について、提供者は責任を負いません。</p>
+  </section>
+
+  <section>
+    <h2>第13条（規約の変更）</h2>
+    <p>提供者は、必要に応じて本規約を変更することができます。変更後の利用規約は本アプリ内または提供者が定める方法で通知します。変更後も本アプリを継続して利用した場合、変更後の規約に同意したものとみなします。</p>
+  </section>
+
+  <section>
+    <h2>第14条（準拠法・管轄裁判所）</h2>
+    <p>本規約の解釈および適用は日本法に準拠します。本アプリに関する紛争については、提供者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。</p>
+  </section>
+
+  <section>
+    <h2>第15条（お問い合わせ）</h2>
+    <div class="contact-block">
+      <p>提供者：segawa takeshi</p>
+      <p>メールアドレス：<a href="mailto:rikodesign.segawa@gmail.com">rikodesign.segawa@gmail.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 segawa takeshi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
