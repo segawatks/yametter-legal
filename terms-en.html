@@ -5,153 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Terms of Service | Yametter</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
-
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  :root {
-    --bg: #f7f5f2;
-    --text: #1a1a1a;
-    --muted: #888;
-    --accent: #2d5a3d;
-    --border: #ddd;
-    --max: 680px;
-  }
-
+  :root { --bg: #f7f5f2; --text: #1a1a1a; --muted: #888; --accent: #2d5a3d; --border: #ddd; --max: 680px; }
   html { font-size: 16px; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 300;
-    line-height: 1.8;
-    padding: 60px 24px 120px;
-  }
-
-  header {
-    max-width: var(--max);
-    margin: 0 auto 60px;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 32px;
-  }
-
-  .app-name {
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 16px;
-  }
-
-  h1 {
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    margin-bottom: 12px;
-  }
-
-  .meta {
-    font-size: 13px;
-    color: var(--muted);
-  }
-
-  main {
-    max-width: var(--max);
-    margin: 0 auto;
-  }
-
-  section {
-    margin-bottom: 48px;
-  }
-
-  h2 {
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    color: var(--accent);
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  p {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 12px;
-  }
-
-  ol {
-    padding-left: 0;
-    list-style: none;
-    counter-reset: item;
-  }
-
-  ol li {
-    font-size: 14px;
-    color: #333;
-    padding: 6px 0 6px 32px;
-    position: relative;
-    counter-increment: item;
-    border-bottom: 1px solid #eee;
-  }
-
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans JP', sans-serif; font-weight: 300; line-height: 1.8; padding: 60px 24px 120px; }
+  header { max-width: var(--max); margin: 0 auto 60px; border-bottom: 1px solid var(--border); padding-bottom: 32px; }
+  .app-name { font-size: 13px; font-weight: 500; letter-spacing: 0.15em; color: var(--accent); text-transform: uppercase; margin-bottom: 16px; }
+  h1 { font-size: 28px; font-weight: 400; letter-spacing: -0.01em; margin-bottom: 12px; }
+  .meta { font-size: 13px; color: var(--muted); }
+  main { max-width: var(--max); margin: 0 auto; }
+  section { margin-bottom: 48px; }
+  h2 { font-size: 15px; font-weight: 500; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  p { font-size: 14px; color: #333; margin-bottom: 12px; }
+  ol { padding-left: 0; list-style: none; counter-reset: item; }
+  ol li { font-size: 14px; color: #333; padding: 6px 0 6px 32px; position: relative; counter-increment: item; border-bottom: 1px solid #eee; }
   ol li:last-child { border-bottom: none; }
-
-  ol li::before {
-    content: '(' counter(item) ')';
-    position: absolute;
-    left: 0;
-    font-size: 12px;
-    color: var(--muted);
-    font-weight: 500;
-    top: 7px;
-  }
-
-  .contact-block {
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 20px 24px;
-  }
-
-  .contact-block p {
-    margin-bottom: 4px;
-  }
-
-  .contact-block a {
-    color: var(--accent);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-  }
-
-  footer {
-    max-width: var(--max);
-    margin: 60px auto 0;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    font-size: 12px;
-    color: var(--muted);
-    text-align: center;
-  }
+  ol li::before { content: '(' counter(item) ')'; position: absolute; left: 0; font-size: 12px; color: var(--muted); font-weight: 500; top: 7px; }
+  .contact-block { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; }
+  .contact-block p { margin-bottom: 4px; }
+  .contact-block a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  .contact-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+  footer { max-width: var(--max); margin: 60px auto 0; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); text-align: center; }
 </style>
 </head>
 <body>
-
 <header>
   <div class="app-name">Yametter</div>
   <h1>Terms of Service</h1>
   <div class="meta">Effective Date: February 22, 2025</div>
 </header>
-
 <main>
-
   <section>
     <h2>Article 1 (General Provisions)</h2>
     <p>These Terms of Service (hereinafter "Terms") set forth the conditions for use of the iOS application "Yametter" (hereinafter "the App") provided by segawa takeshi (hereinafter "the Provider"). By using the App, you agree to these Terms.</p>
   </section>
-
   <section>
     <h2>Article 2 (Definitions)</h2>
     <ol>
@@ -160,17 +47,14 @@
       <li>"Content" refers to text, images, focus session records (time graphs, tags, etc.) posted or recorded by Users within the App.</li>
     </ol>
   </section>
-
   <section>
     <h2>Article 3 (Account Registration)</h2>
     <p>The App supports account registration exclusively through "Sign in with Apple" using an Apple ID. Users must agree to Apple's terms of service before creating an account.</p>
   </section>
-
   <section>
     <h2>Article 4 (Eligibility)</h2>
     <p>The App is intended for users aged 13 and older. Users under the age of 13 are not permitted to use the App. Users between the ages of 13 and 18 must obtain parental or guardian consent before using the App.</p>
   </section>
-
   <section>
     <h2>Article 5 (Features)</h2>
     <p>The App provides the following features:</p>
@@ -180,12 +64,10 @@
       <li>Any other features the Provider may add from time to time.</li>
     </ol>
   </section>
-
   <section>
     <h2>Article 6 (Advertising)</h2>
     <p>The App is currently provided free of charge and may display advertisements. The Provider does not control the content of advertisements; such content is the sole responsibility of the respective advertisers.</p>
   </section>
-
   <section>
     <h2>Article 7 (Prohibited Activities)</h2>
     <p>Users must not engage in any of the following activities when using the App:</p>
@@ -204,23 +86,19 @@
       <li>Any other activity deemed inappropriate by the Provider.</li>
     </ol>
   </section>
-
   <section>
     <h2>Article 8 (Account Suspension and Deletion)</h2>
     <p>If a User violates these Terms, the Provider may suspend or delete that User's account without prior warning. The Provider assumes no liability for any damages arising from such suspension or deletion.</p>
   </section>
-
   <section>
     <h2>Article 9 (Content)</h2>
     <p>Copyright in Content posted by Users remains with the respective Users. However, Users grant the Provider a non-exclusive, royalty-free license to use, reproduce, and display such Content to the extent necessary for providing, improving, and promoting the App.</p>
     <p>The Provider may remove Content that violates these Terms without prior notice.</p>
   </section>
-
   <section>
     <h2>Article 10 (Privacy)</h2>
     <p>The Provider handles Users' personal information appropriately in accordance with its Privacy Policy. By using the App, Users are also deemed to have agreed to the Privacy Policy.</p>
   </section>
-
   <section>
     <h2>Article 11 (Disclaimer)</h2>
     <p>The Provider assumes no liability for any of the following:</p>
@@ -232,35 +110,29 @@
       <li>Loss of data due to communication environment or other factors.</li>
     </ol>
   </section>
-
   <section>
     <h2>Article 12 (Changes and Termination of Service)</h2>
     <p>The Provider may modify or discontinue the App without prior notice to Users. The Provider assumes no liability for any damages incurred by Users as a result of such changes or discontinuation.</p>
   </section>
-
   <section>
     <h2>Article 13 (Changes to Terms)</h2>
     <p>The Provider may update these Terms as necessary. Updated Terms will be communicated through the App or by other means determined by the Provider. Continued use of the App after such updates constitutes acceptance of the revised Terms.</p>
   </section>
-
   <section>
     <h2>Article 14 (Governing Law and Jurisdiction)</h2>
     <p>These Terms shall be governed by and construed in accordance with the laws of Japan. Any disputes arising in connection with the App shall be subject to the exclusive jurisdiction of the court having jurisdiction over the Provider's place of business as the court of first instance.</p>
   </section>
-
   <section>
     <h2>Article 15 (Contact)</h2>
     <div class="contact-block">
       <p>Provider: segawa takeshi</p>
-      <p>Email: <a href="mailto:rikodesign.segawa@gmail.com">rikodesign.segawa@gmail.com</a></p>
+      <p>Email: rikodesign.segawa@gmail.com</p>
+      <p class="contact-note">* Please note that we can only respond to inquiries written in Japanese.</p>
     </div>
   </section>
-
 </main>
-
 <footer>
-  <p>© 2025 segawa takeshi. All rights reserved.</p>
+  <p>&copy; 2025 segawa takeshi. All rights reserved.</p>
 </footer>
-
 </body>
 </html>
