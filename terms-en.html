@@ -25,6 +25,9 @@
   .contact-block p { margin-bottom: 4px; }
   .contact-block a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
   .contact-note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+  .beta-notice { max-width: var(--max); margin: 0 auto 48px; background: #fffbf0; border: 1px solid #e0c96e; border-left: 4px solid #c9a32a; border-radius: 6px; padding: 20px 24px; }
+  .beta-notice .beta-label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; color: #9a7a10; text-transform: uppercase; margin-bottom: 10px; }
+  .beta-notice p { font-size: 13px; color: #5a4a1a; line-height: 1.8; margin-bottom: 0; }
   footer { max-width: var(--max); margin: 60px auto 0; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); text-align: center; }
 </style>
 </head>
@@ -32,8 +35,12 @@
 <header>
   <div class="app-name">Yametter</div>
   <h1>Terms of Service</h1>
-  <div class="meta">Effective Date: February 22, 2025 / Last Updated: April 20, 2026</div>
+  <div class="meta">Effective Date: February 22, 2025 / Last Updated: June 22, 2026</div>
 </header>
+<div class="beta-notice">
+  <div class="beta-label">Notice</div>
+  <p>The App is under continuous improvement and may be updated from time to time, which can result in unexpected bugs or changes to its features and specifications. In addition, data may not be saved or reflected correctly due to factors such as the communication environment. We recommend that you keep your own backup of important data as needed. Please use the App with an understanding of these points.</p>
+</div>
 <main>
   <section>
     <h2>Article 1 (General Provisions)</h2>
@@ -60,9 +67,10 @@
     <p>The App provides the following features:</p>
     <ol>
       <li>Focus Timer: A timer function that helps users concentrate on specific tasks for a set period of time. Progress may be displayed via Live Activity (Dynamic Island) during focus sessions.</li>
-      <li>Partner Search: A function that randomly pairs users with other users for simultaneous focus sessions. During focus sessions, each partner's status (focused, escaped, etc.) is shared in real time.</li>
+      <li>Partner Features: In addition to "Partner Search," which randomly pairs users for simultaneous focus sessions, this includes a "Sit Next to Me" (join) feature that lets you specify and join a particular user who meets certain conditions—such as a mutually-followed user—to focus together. During focus sessions, each partner's status (focused, escaped, etc.) is shared in real time.</li>
       <li>Recording &amp; Posting: Logging focus sessions (time graphs and task tags), posting text and comments.</li>
       <li>Social Features: Following other users, likes (Good Job), comments, and blocking.</li>
+      <li>User Search: A function to search for other users by nickname, etc. (Search tab).</li>
       <li>Profile: Setting and displaying nickname, icon image, region, gender, bio, study goals, etc.</li>
       <li>App Restriction: Using Apple's Screen Time API to restrict the use of user-selected apps during focus sessions. User authorization is required.</li>
       <li>External App Integration: Reflecting focus session data from the Provider's separate app "Sumayame" in charts (only when enabled by the user in settings).</li>
@@ -73,7 +81,20 @@
   </section>
   <section>
     <h2>Article 6 (Advertising)</h2>
-    <p>The App is currently provided free of charge and may display advertisements. The Provider does not control the content of advertisements; such content is the sole responsibility of the respective advertisers.</p>
+    <p>The App may display advertisements. The Provider does not control the content of advertisements; such content is the sole responsibility of the respective advertisers. Advertisements may be displayed in several formats, including banner ads, interstitial ads, and app open ads.</p>
+  </section>
+  <section>
+    <h2>Article 6-2 (Paid Service "Yametter Premium")</h2>
+    <p>The App offers a paid auto-renewing subscription service, "Yametter Premium" (hereinafter the "Paid Service"), which provides additional features and benefits. The terms of use for the Paid Service are as follows:</p>
+    <ol>
+      <li>The Paid Service is a monthly auto-renewing subscription, and payment is processed through the App Store (the user's Apple ID). Pricing follows the display on the App Store.</li>
+      <li>The subscription automatically renews, and the fee for the renewed period is charged, unless the user turns off auto-renewal at least 24 hours before the end of the current period. The renewal fee is charged to the Apple ID within 24 hours prior to the end of the period.</li>
+      <li>Subscriptions can be managed, and auto-renewal can be turned off, by the user via Settings &gt; Apple ID &gt; Subscriptions on the device. Purchase, restoration, and subscription management can also be performed from within the App's settings screen.</li>
+      <li>Payment, refunds, and all other transactions are subject to the policies of Apple Inc. and the App Store. Because the Provider does not process payments directly and does not receive payment information, the Provider cannot, in principle, provide individual refunds. If you wish to request a refund, please apply in accordance with the procedures prescribed by Apple / the App Store.</li>
+      <li>Cancellation takes effect from the next renewal date; until then, you may continue to use the Paid Service. No refund will be provided for any period that has already elapsed.</li>
+      <li>Benefits of the Paid Service include the ability to place an external link on your profile and to set a profile background image, among others. The specific contents of the benefits may be changed or added by the Provider without prior notice as features are added or modified.</li>
+      <li>Minors must obtain the consent of a parent or guardian before purchasing the Paid Service.</li>
+    </ol>
   </section>
   <section>
     <h2>Article 7 (Prohibited Activities)</h2>
@@ -106,7 +127,11 @@
   <section>
     <h2>Article 10 (Content)</h2>
     <p>Copyright in Content posted by Users remains with the respective Users. However, Users grant the Provider a non-exclusive, royalty-free license to use, reproduce, and display such Content to the extent necessary for providing, improving, and promoting the App.</p>
-    <p>The Provider may remove Content that violates these Terms without prior notice.</p>
+    <p>The Provider may remove Content that violates these Terms without prior notice. In addition, where the Provider deems it necessary to correct inappropriate expressions or otherwise to maintain the sound operation of the App, the Provider may edit or modify the body text of Content (posts, comments, etc.) posted by Users.</p>
+  </section>
+  <section>
+    <h2>Article 10-2 (In-App Items)</h2>
+    <p>The App may include "edit tickets," used to edit posts, and other in-app items or benefits. These are granted free of charge in accordance with conditions determined by the Provider; they are not available for purchase through payment, and cannot be exchanged for cash or any other thing of monetary value, transferred between users, or refunded. The Provider may change or discontinue the contents of, and the conditions for granting and using, these items and benefits without prior notice.</p>
   </section>
   <section>
     <h2>Article 11 (Privacy)</h2>
